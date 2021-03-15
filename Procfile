@@ -1,1 +1,1 @@
-web: gunicorn fluxdevelopement.wsgi
+web: gunicorn django_project.wsgi
