@@ -25,16 +25,12 @@ ALLOWED_HOSTS = ['fluxdevelopement.herokuapp.com', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'blog.apps.BlogConfig',
-    'users.apps.UsersConfig',
-    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'storages'
 ]
 
 MIDDLEWARE = [
@@ -65,7 +61,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_project.wsgi.application'
+WSGI_APPLICATION = 'fluxdevelopement.wsgi.application'
+
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
