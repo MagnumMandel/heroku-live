@@ -1,1 +1,1 @@
-web: gunicorn fluxdevelopement:app --preload
+web: gunicorn fluxdevelopement.wsgi --preload 
